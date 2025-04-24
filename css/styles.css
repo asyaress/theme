@@ -1,0 +1,3 @@
+/* Main stylesheet */
+body { font-family: {{ site_settings.font_family }}; }
+.accent { color: {{ site_settings.accent_color }}; }

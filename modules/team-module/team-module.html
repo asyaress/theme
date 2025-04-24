@@ -1,0 +1,9 @@
+<div class="team-grid">
+  {{#each team_members}}
+    <div class="team-member">
+      <img src="{{ this.photo }}" alt="{{ this.name }}">
+      <h3>{{ this.name }}</h3>
+      <p>{{ this.role }}</p>
+    </div>
+  {{/each}}
+</div>
